@@ -1,0 +1,7 @@
+NOTA: Resulta que los ejemplos que hay en examples.txt no valen para ./top y dan syntax error. Tenemos que hacer versiones lexer que nuestro intérprete pueda entender...
+Jorge Graña tenía sus propios ejemplos en un archivo llamado "examples-lexer" así que he pensado en copiarle y que este sea nuestro propio "examples-lexer".
+No sé muy bien cómo hacerlos, pero supongo que preguntándole a algún LLM nos puede echar un cable
+
+(Este de aquí me quedó muy a medias, era uno de los suyos)
+letrec sum : Nat -> Nat -> Nat =
+ lambda n : Nat. lambda m : Nat. if iszero m then 0
